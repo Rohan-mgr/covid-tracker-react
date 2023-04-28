@@ -1,0 +1,16 @@
+.card {
+    font-family: "Gotham";
+    padding: 5px;
+    box-shadow: 3px 5px 10px rgb(147, 145, 145);
+}
+
+p,
+h3 {
+    margin: 0 !important;
+}
+
+@media (max-width: 480px) {
+    .card {
+        margin: 2% 0;
+    }
+}

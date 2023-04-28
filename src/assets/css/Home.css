@@ -1,0 +1,50 @@
+
+.home__logo__wrapper{
+    text-align: center;
+    height: 20vh;
+    z-index: 1;
+    margin-bottom: 1rem;
+}
+.home__logo__wrapper img {
+    height: 100%;
+    object-fit: fill;
+}
+
+.home select {
+    width: 40%;
+}
+
+.home .drop__down {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1rem;
+    z-index: 1;
+}
+
+.home .drop__down select {
+    padding: 3px;
+    background: transparent;
+    color: #000;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid #000;
+    border-bottom-left-radius: .28rem;
+    border-bottom-right-radius: .28rem;
+    outline: none;
+}
+
+.home__graph {
+    width:100%;
+    padding: 0 1rem;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 480px){
+    .home__logo__wrapper {
+        height: 15vh;
+    }
+}
